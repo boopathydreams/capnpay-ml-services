@@ -1,0 +1,1001 @@
+amount,vpa,payee_name,category,hour,day_of_week,caps_state
+590.29,user0@googlepay,Doctor Fee,Healthcare,20,6,OK
+25.89,user1@phonepe,Parking Fee,Transport,17,2,OK
+268.64,user2@hdfc,Pharmacy,Healthcare,20,0,OK
+648.61,user3@phonepe,Salary Credit,Personal,16,2,OK
+246.57,user4@razorpay,Lab Test,Healthcare,14,5,OK
+50.92,user5@paytm,Pizza Hut,Food & Dining,19,2,OK
+717.74,user6@phonepe,Reliance,Shopping,19,0,OK
+642.43,user7@axis,Lab Test,Healthcare,14,3,OK
+20.55,user8@hdfc,Petrol Pump,Transport,17,1,OK
+479.51,user9@phonepe,Reliance,Shopping,15,4,Over
+657.79,user10@razorpay,Max Hospital,Healthcare,15,6,OK
+136.21,user11@axis,KFC,Food & Dining,19,4,OK
+875.59,user12@paytm,Amazon,Shopping,18,4,Near
+61.47,user13@googlepay,Subway,Food & Dining,8,0,OK
+48.05,user14@phonepe,Uber,Transport,9,4,Near
+208.28,user15@phonepe,McDonald,Food & Dining,21,0,OK
+85.36,user16@googlepay,Subway,Food & Dining,12,3,OK
+20.52,user17@googlepay,Uber,Transport,9,4,Over
+313.47,user18@phonepe,Cafe Coffee Day,Food & Dining,21,2,OK
+871.79,user19@paytm,Reliance,Shopping,12,6,Near
+759.36,user20@googlepay,Doctor Fee,Healthcare,22,6,OK
+1117.67,user21@hdfc,Salary Credit,Personal,12,6,OK
+144.48,user22@razorpay,Max Hospital,Healthcare,20,5,OK
+753.58,user23@paytm,Lab Test,Healthcare,10,1,OK
+315.76,user24@hdfc,Electricity Bill,Bills,19,4,Near
+19.6,user25@phonepe,Uber,Transport,19,4,OK
+468.93,user26@paytm,Medicine Shop,Healthcare,8,3,OK
+131.91,user27@googlepay,Reliance,Shopping,21,5,OK
+152.95,user28@paytm,Cafe Coffee Day,Food & Dining,20,6,OK
+508.58,user29@phonepe,Pizza Hut,Food & Dining,20,1,OK
+229.45,user30@axis,Mobile Recharge,Bills,16,6,Near
+249.03,user31@paytm,Max Hospital,Healthcare,5,5,OK
+390.3,user32@razorpay,McDonald,Food & Dining,12,3,OK
+34.21,user33@razorpay,Ola,Transport,9,6,OK
+183.83,user34@paytm,Zomato,Food & Dining,8,2,OK
+92.23,user35@phonepe,Nykaa,Shopping,19,2,OK
+66.44,user36@googlepay,McDonald,Food & Dining,20,3,OK
+162.77,user37@googlepay,Zomato,Food & Dining,12,2,OK
+621.63,user38@hdfc,Pharmacy,Healthcare,10,0,OK
+945.72,user39@paytm,Pharmacy,Healthcare,2,5,Near
+1306.14,user40@paytm,Family Transfer,Personal,21,2,Near
+172.12,user41@razorpay,Apollo Hospital,Healthcare,3,0,OK
+39.14,user42@hdfc,Uber,Transport,9,2,OK
+138.94,user43@hdfc,DTH,Bills,5,5,OK
+33.29,user44@axis,Metro Card,Transport,17,6,OK
+1115.96,user45@paytm,Doctor Fee,Healthcare,15,2,OK
+132.72,user46@paytm,McDonald,Food & Dining,8,4,Near
+303.14,user47@axis,Gas Bill,Bills,2,3,Near
+434.39,user48@googlepay,Friend Transfer,Personal,9,6,Near
+209.79,user49@googlepay,Water Bill,Bills,14,5,OK
+1347.86,user50@axis,Flipkart,Shopping,18,2,Near
+464.31,user51@axis,Nykaa,Shopping,19,2,OK
+273.37,user52@phonepe,Max Hospital,Healthcare,18,6,OK
+600.53,user53@hdfc,Nykaa,Shopping,15,2,OK
+725.77,user54@googlepay,Family Transfer,Personal,9,5,OK
+612.13,user55@razorpay,Doctor Fee,Healthcare,0,4,OK
+741.44,user56@razorpay,Salary Credit,Personal,14,2,OK
+1699.39,user57@googlepay,Family Transfer,Personal,9,5,OK
+235.03,user58@hdfc,Max Hospital,Healthcare,0,6,OK
+402.78,user59@axis,Electricity Bill,Bills,7,4,OK
+240.0,user60@paytm,Refund,Personal,15,2,OK
+675.71,user61@hdfc,Salary Credit,Personal,4,6,OK
+301.79,user62@axis,Mobile Recharge,Bills,3,0,OK
+1074.83,user63@razorpay,Flipkart,Shopping,15,4,Near
+666.11,user64@phonepe,Flipkart,Shopping,17,4,OK
+216.58,user65@phonepe,McDonald,Food & Dining,12,3,OK
+36.26,user66@paytm,Bus Service,Transport,9,4,OK
+129.61,user67@razorpay,Swiggy,Food & Dining,12,3,OK
+252.92,user68@axis,Water Bill,Bills,22,0,OK
+471.53,user69@paytm,Flipkart,Shopping,19,5,Near
+785.57,user70@axis,Max Hospital,Healthcare,23,3,OK
+306.82,user71@googlepay,McDonald,Food & Dining,9,4,OK
+60.71,user72@axis,Pizza Hut,Food & Dining,21,6,Near
+171.67,user73@googlepay,Apollo Hospital,Healthcare,22,4,OK
+149.32,user74@googlepay,KFC,Food & Dining,8,5,OK
+236.39,user75@razorpay,McDonald,Food & Dining,13,4,Near
+156.3,user76@axis,Subway,Food & Dining,13,2,OK
+1433.16,user77@axis,John Doe,Personal,11,0,OK
+624.46,user78@hdfc,Doctor Fee,Healthcare,12,4,OK
+1099.57,user79@googlepay,DMart,Shopping,12,6,OK
+925.51,user80@hdfc,Nykaa,Shopping,21,0,OK
+624.08,user81@phonepe,Family Transfer,Personal,8,1,Near
+257.73,user82@paytm,Refund,Personal,19,0,Near
+268.42,user83@googlepay,Salary Credit,Personal,3,5,OK
+143.01,user84@axis,Salary Credit,Personal,18,6,OK
+5271.3,user85@paytm,Family Transfer,Personal,19,3,Near
+189.87,user86@paytm,Pizza Hut,Food & Dining,21,3,OK
+251.3,user87@axis,Gas Bill,Bills,5,1,OK
+926.98,user88@paytm,Refund,Personal,18,3,OK
+171.16,user89@hdfc,KFC,Food & Dining,21,6,Over
+236.68,user90@phonepe,Internet Bill,Bills,20,1,OK
+1452.51,user91@paytm,Reliance,Shopping,11,3,OK
+512.46,user92@razorpay,Medicine Shop,Healthcare,0,4,Near
+7159.32,user93@phonepe,Refund,Personal,13,2,Over
+19.53,user94@axis,Parking Fee,Transport,19,1,OK
+370.82,user95@paytm,KFC,Food & Dining,8,1,Over
+25.89,user96@paytm,Parking Fee,Transport,9,2,OK
+2098.43,user97@hdfc,Amazon,Shopping,12,6,OK
+1270.55,user98@axis,Apollo Hospital,Healthcare,2,4,OK
+1373.66,user99@hdfc,Family Transfer,Personal,9,2,OK
+97.1,user0@phonepe,KFC,Food & Dining,13,5,Near
+209.48,user1@googlepay,Max Hospital,Healthcare,1,5,OK
+423.86,user2@hdfc,Reliance,Shopping,16,6,OK
+5071.57,user3@razorpay,Big Bazaar,Shopping,12,6,OK
+2412.61,user4@razorpay,Myntra,Shopping,20,2,Over
+280.62,user5@phonepe,KFC,Food & Dining,8,6,OK
+32.92,user6@phonepe,Uber,Transport,17,3,OK
+310.73,user7@googlepay,Gas Bill,Bills,1,4,OK
+13.87,user8@razorpay,Metro Card,Transport,9,5,OK
+1673.21,user9@phonepe,Apollo Hospital,Healthcare,2,2,OK
+2030.64,user10@hdfc,Family Transfer,Personal,17,3,OK
+646.31,user11@hdfc,Friend Transfer,Personal,4,0,OK
+3202.8,user12@paytm,Amazon,Shopping,18,1,Near
+247.29,user13@paytm,DTH,Bills,10,6,OK
+1087.17,user14@hdfc,Reliance,Shopping,13,6,OK
+307.12,user15@axis,Water Bill,Bills,22,5,OK
+1330.73,user16@phonepe,Myntra,Shopping,20,6,OK
+969.55,user17@paytm,Myntra,Shopping,12,2,OK
+574.46,user18@razorpay,Salary Credit,Personal,11,0,Near
+86.42,user19@phonepe,McDonald,Food & Dining,9,2,OK
+1171.67,user20@paytm,Pharmacy,Healthcare,16,3,OK
+1879.78,user21@axis,Salary Credit,Personal,1,2,OK
+203.34,user22@hdfc,Gas Bill,Bills,15,3,Near
+167.73,user23@googlepay,DTH,Bills,23,6,Near
+38.71,user24@paytm,Parking Fee,Transport,17,6,Near
+238.54,user25@googlepay,DTH,Bills,18,5,Near
+471.24,user26@razorpay,Big Bazaar,Shopping,19,5,OK
+190.05,user27@phonepe,McDonald,Food & Dining,8,3,OK
+173.86,user28@paytm,DTH,Bills,3,4,OK
+265.16,user29@phonepe,Water Bill,Bills,23,1,OK
+815.99,user30@paytm,Max Hospital,Healthcare,0,6,OK
+111.22,user31@hdfc,Pizza Hut,Food & Dining,21,5,OK
+178.68,user32@googlepay,Cafe Coffee Day,Food & Dining,8,1,OK
+109.73,user33@paytm,KFC,Food & Dining,13,4,OK
+797.53,user34@phonepe,Salary Credit,Personal,4,2,OK
+222.36,user35@hdfc,Mobile Recharge,Bills,12,1,OK
+50.43,user36@phonepe,Parking Fee,Transport,7,0,OK
+189.98,user37@hdfc,Gas Bill,Bills,7,2,OK
+157.03,user38@paytm,Internet Bill,Bills,19,6,Near
+898.41,user39@hdfc,Pharmacy,Healthcare,6,2,OK
+241.06,user40@phonepe,Zomato,Food & Dining,8,5,OK
+1183.96,user41@hdfc,DMart,Shopping,20,1,OK
+10000.0,user42@axis,Salary Credit,Personal,14,4,Near
+209.86,user43@googlepay,Lab Test,Healthcare,12,1,OK
+17.24,user44@phonepe,Bus Service,Transport,18,3,OK
+266.21,user45@hdfc,DTH,Bills,7,6,OK
+29.74,user46@razorpay,Bus Service,Transport,17,2,Near
+296.51,user47@phonepe,Doctor Fee,Healthcare,23,4,OK
+108.32,user48@paytm,McDonald,Food & Dining,12,4,OK
+231.59,user49@axis,Internet Bill,Bills,22,0,OK
+929.89,user50@googlepay,Myntra,Shopping,10,6,OK
+743.01,user51@paytm,Friend Transfer,Personal,20,0,OK
+398.57,user52@phonepe,Family Transfer,Personal,10,5,OK
+17.08,user53@googlepay,Ola,Transport,9,0,OK
+339.67,user54@paytm,Medicine Shop,Healthcare,6,3,OK
+129.49,user55@razorpay,Cafe Coffee Day,Food & Dining,21,2,OK
+949.86,user56@hdfc,DMart,Shopping,18,0,OK
+407.46,user57@axis,Doctor Fee,Healthcare,7,0,OK
+259.67,user58@googlepay,Internet Bill,Bills,16,4,OK
+592.6,user59@hdfc,Amazon,Shopping,12,6,OK
+965.13,user60@googlepay,Apollo Hospital,Healthcare,3,0,OK
+126.63,user61@paytm,Flipkart,Shopping,12,5,OK
+337.05,user62@googlepay,Max Hospital,Healthcare,22,2,OK
+3054.24,user63@paytm,Friend Transfer,Personal,14,4,OK
+967.64,user64@hdfc,Max Hospital,Healthcare,15,3,Near
+1669.58,user65@axis,Family Transfer,Personal,6,1,OK
+37.79,user66@axis,Parking Fee,Transport,8,1,Near
+741.75,user67@razorpay,Medicine Shop,Healthcare,9,6,OK
+924.86,user68@googlepay,Doctor Fee,Healthcare,8,1,Near
+252.39,user69@phonepe,Max Hospital,Healthcare,21,3,OK
+253.22,user70@hdfc,Internet Bill,Bills,16,1,OK
+160.0,user71@hdfc,Swiggy,Food & Dining,19,0,OK
+178.87,user72@googlepay,Internet Bill,Bills,12,1,OK
+228.9,user73@hdfc,Water Bill,Bills,20,1,OK
+629.43,user74@hdfc,Amazon,Shopping,21,6,OK
+83.24,user75@razorpay,John Doe,Personal,5,2,OK
+10000.0,user76@hdfc,Friend Transfer,Personal,16,1,Near
+559.73,user77@paytm,Myntra,Shopping,11,3,Over
+18.66,user78@razorpay,Parking Fee,Transport,18,2,OK
+198.44,user79@hdfc,Pizza Hut,Food & Dining,21,2,Near
+144.54,user80@razorpay,Gas Bill,Bills,14,3,OK
+31.51,user81@phonepe,Uber,Transport,19,2,OK
+51.44,user82@googlepay,Swiggy,Food & Dining,8,0,OK
+502.36,user83@axis,Amazon,Shopping,16,2,Near
+325.24,user84@paytm,Lab Test,Healthcare,16,4,OK
+106.76,user85@googlepay,Subway,Food & Dining,13,5,Over
+3969.0,user86@razorpay,Friend Transfer,Personal,5,0,Over
+50.65,user87@phonepe,Ola,Transport,7,4,OK
+79.4,user88@paytm,Subway,Food & Dining,21,5,OK
+93.92,user89@hdfc,Ola,Transport,9,6,OK
+778.06,user90@googlepay,Medicine Shop,Healthcare,16,5,OK
+281.12,user91@googlepay,Lab Test,Healthcare,12,1,Near
+2111.89,user92@hdfc,Nykaa,Shopping,17,0,Near
+57.27,user93@phonepe,Cafe Coffee Day,Food & Dining,9,0,Near
+187.57,user94@axis,Pharmacy,Healthcare,1,5,OK
+102.35,user95@razorpay,Family Transfer,Personal,2,2,Over
+658.62,user96@phonepe,Friend Transfer,Personal,15,3,Over
+116.12,user97@hdfc,Electricity Bill,Bills,6,3,OK
+58.52,user98@axis,Pizza Hut,Food & Dining,9,3,OK
+127.76,user99@paytm,Zomato,Food & Dining,19,5,OK
+242.78,user0@phonepe,McDonald,Food & Dining,20,2,Near
+133.35,user1@razorpay,Subway,Food & Dining,13,3,OK
+964.67,user2@hdfc,Refund,Personal,8,0,Over
+664.38,user3@paytm,Refund,Personal,21,6,OK
+58.45,user4@googlepay,Bus Service,Transport,19,0,OK
+206.19,user5@paytm,Gas Bill,Bills,23,4,OK
+367.55,user6@axis,Pharmacy,Healthcare,23,2,OK
+260.56,user7@paytm,Pizza Hut,Food & Dining,8,1,Near
+94.35,user8@googlepay,Cafe Coffee Day,Food & Dining,13,6,OK
+2906.92,user9@axis,Family Transfer,Personal,17,5,Over
+415.84,user10@phonepe,Doctor Fee,Healthcare,18,1,OK
+50.01,user11@googlepay,Parking Fee,Transport,18,0,Near
+334.83,user12@axis,Apollo Hospital,Healthcare,12,2,OK
+536.51,user13@axis,Reliance,Shopping,20,5,OK
+30.97,user14@phonepe,Parking Fee,Transport,9,4,OK
+447.06,user15@phonepe,Max Hospital,Healthcare,13,4,OK
+1123.99,user16@axis,John Doe,Personal,1,3,OK
+34.33,user17@paytm,Petrol Pump,Transport,9,5,OK
+257.67,user18@razorpay,Nykaa,Shopping,14,4,OK
+305.14,user19@razorpay,Max Hospital,Healthcare,3,2,OK
+142.17,user20@hdfc,Electricity Bill,Bills,23,2,Near
+2878.47,user21@axis,Salary Credit,Personal,3,2,OK
+1206.97,user22@phonepe,Doctor Fee,Healthcare,22,1,OK
+1026.85,user23@axis,Salary Credit,Personal,16,2,OK
+3367.26,user24@razorpay,John Doe,Personal,2,0,Over
+4066.52,user25@hdfc,Refund,Personal,14,4,Near
+15.82,user26@phonepe,Uber,Transport,8,3,OK
+622.24,user27@phonepe,John Doe,Personal,16,0,OK
+512.81,user28@razorpay,Medicine Shop,Healthcare,14,2,Near
+39.75,user29@phonepe,Parking Fee,Transport,17,4,Near
+31.95,user30@razorpay,Bus Service,Transport,19,6,OK
+1105.53,user31@razorpay,Lab Test,Healthcare,8,5,OK
+319.65,user32@paytm,DTH,Bills,7,2,Over
+196.8,user33@hdfc,Family Transfer,Personal,17,5,Over
+36.72,user34@paytm,Parking Fee,Transport,9,0,OK
+281.67,user35@phonepe,DTH,Bills,21,3,OK
+699.25,user36@axis,Reliance,Shopping,18,4,OK
+233.61,user37@phonepe,Max Hospital,Healthcare,21,6,OK
+206.16,user38@googlepay,Water Bill,Bills,22,3,OK
+1944.16,user39@paytm,John Doe,Personal,5,0,Over
+911.06,user40@googlepay,Reliance,Shopping,13,5,OK
+650.03,user41@googlepay,Lab Test,Healthcare,5,1,OK
+123.38,user42@axis,McDonald,Food & Dining,20,3,OK
+164.4,user43@hdfc,Cafe Coffee Day,Food & Dining,12,1,OK
+581.72,user44@hdfc,Doctor Fee,Healthcare,22,2,OK
+420.33,user45@paytm,Big Bazaar,Shopping,15,4,Over
+30.87,user46@paytm,Metro Card,Transport,18,4,OK
+237.05,user47@razorpay,Apollo Hospital,Healthcare,20,6,OK
+2627.49,user48@paytm,Salary Credit,Personal,23,1,Over
+690.69,user49@phonepe,Max Hospital,Healthcare,20,1,OK
+180.12,user50@razorpay,Reliance,Shopping,12,1,Near
+26.33,user51@googlepay,Parking Fee,Transport,8,4,OK
+861.81,user52@axis,Reliance,Shopping,18,5,OK
+224.2,user53@paytm,Electricity Bill,Bills,19,1,OK
+19.73,user54@googlepay,Uber,Transport,17,3,Over
+1683.55,user55@axis,Big Bazaar,Shopping,15,5,OK
+540.56,user56@paytm,Reliance,Shopping,13,2,Near
+354.29,user57@razorpay,Mobile Recharge,Bills,10,4,OK
+1606.7,user58@googlepay,Friend Transfer,Personal,14,6,OK
+1685.88,user59@axis,Salary Credit,Personal,17,5,OK
+673.74,user60@hdfc,Max Hospital,Healthcare,4,0,OK
+381.27,user61@googlepay,Max Hospital,Healthcare,19,4,OK
+35.01,user62@googlepay,Petrol Pump,Transport,7,6,OK
+955.3,user63@hdfc,Nykaa,Shopping,21,5,OK
+429.03,user64@axis,Salary Credit,Personal,22,1,OK
+296.87,user65@paytm,Gas Bill,Bills,14,5,OK
+648.91,user66@paytm,Big Bazaar,Shopping,10,1,Near
+1639.89,user67@paytm,Medicine Shop,Healthcare,7,0,Near
+225.79,user68@hdfc,Pizza Hut,Food & Dining,20,3,OK
+367.85,user69@paytm,Zomato,Food & Dining,8,0,Near
+599.24,user70@razorpay,Refund,Personal,1,4,OK
+221.85,user71@paytm,Internet Bill,Bills,5,1,OK
+31.19,user72@paytm,Parking Fee,Transport,19,6,OK
+440.5,user73@razorpay,Max Hospital,Healthcare,6,6,OK
+3176.6,user74@googlepay,Friend Transfer,Personal,2,3,OK
+81.32,user75@paytm,Petrol Pump,Transport,19,1,OK
+33.91,user76@phonepe,Parking Fee,Transport,19,3,OK
+260.62,user77@razorpay,McDonald,Food & Dining,19,1,OK
+649.36,user78@axis,Medicine Shop,Healthcare,17,3,Over
+1949.77,user79@paytm,John Doe,Personal,22,6,OK
+172.07,user80@hdfc,Medicine Shop,Healthcare,12,5,OK
+677.19,user81@googlepay,Salary Credit,Personal,15,4,OK
+162.05,user82@paytm,Salary Credit,Personal,3,5,OK
+1630.82,user83@phonepe,Salary Credit,Personal,10,6,Near
+222.96,user84@hdfc,Friend Transfer,Personal,3,3,OK
+184.98,user85@axis,McDonald,Food & Dining,19,1,OK
+525.22,user86@phonepe,DTH,Bills,8,6,OK
+182.46,user87@axis,Cafe Coffee Day,Food & Dining,9,0,OK
+655.17,user88@googlepay,Max Hospital,Healthcare,6,1,Near
+555.73,user89@paytm,Max Hospital,Healthcare,0,6,OK
+28.74,user90@googlepay,Bus Service,Transport,7,5,OK
+554.17,user91@axis,Medicine Shop,Healthcare,9,0,OK
+119.41,user92@phonepe,KFC,Food & Dining,21,4,OK
+198.89,user93@razorpay,Gas Bill,Bills,6,0,OK
+149.2,user94@axis,Internet Bill,Bills,6,4,OK
+250.35,user95@googlepay,McDonald,Food & Dining,12,0,OK
+180.06,user96@googlepay,Electricity Bill,Bills,1,3,Near
+8777.49,user97@phonepe,Family Transfer,Personal,2,5,OK
+43.73,user98@hdfc,Petrol Pump,Transport,8,6,OK
+1575.9,user99@paytm,Max Hospital,Healthcare,3,4,OK
+1806.8,user0@razorpay,Myntra,Shopping,21,0,OK
+29.37,user1@hdfc,Petrol Pump,Transport,18,6,OK
+1179.68,user2@phonepe,Salary Credit,Personal,20,3,Near
+219.21,user3@axis,Cafe Coffee Day,Food & Dining,13,5,OK
+177.47,user4@googlepay,Mobile Recharge,Bills,1,0,OK
+95.12,user5@hdfc,Zomato,Food & Dining,8,2,Near
+890.91,user6@razorpay,Reliance,Shopping,21,4,OK
+299.18,user7@hdfc,Swiggy,Food & Dining,20,1,OK
+379.01,user8@axis,Myntra,Shopping,16,3,Near
+39.39,user9@hdfc,Ola,Transport,9,1,OK
+862.75,user10@hdfc,Max Hospital,Healthcare,21,0,Near
+188.17,user11@googlepay,KFC,Food & Dining,20,5,OK
+40.61,user12@paytm,Uber,Transport,8,4,OK
+811.16,user13@hdfc,Doctor Fee,Healthcare,11,3,OK
+670.51,user14@googlepay,Max Hospital,Healthcare,10,5,OK
+27.56,user15@phonepe,Parking Fee,Transport,9,1,OK
+297.01,user16@paytm,Internet Bill,Bills,14,0,OK
+57.38,user17@googlepay,Parking Fee,Transport,7,3,OK
+451.42,user18@razorpay,Apollo Hospital,Healthcare,16,4,OK
+1099.98,user19@phonepe,Salary Credit,Personal,3,3,Near
+6090.75,user20@hdfc,Salary Credit,Personal,2,6,Near
+178.07,user21@phonepe,Gas Bill,Bills,21,4,OK
+369.01,user22@axis,Internet Bill,Bills,20,1,OK
+122.48,user23@axis,Cafe Coffee Day,Food & Dining,19,1,OK
+273.71,user24@axis,Family Transfer,Personal,10,6,OK
+361.48,user25@razorpay,Myntra,Shopping,13,1,OK
+221.96,user26@axis,Big Bazaar,Shopping,15,1,OK
+66.24,user27@phonepe,Zomato,Food & Dining,8,0,Near
+506.55,user28@phonepe,Doctor Fee,Healthcare,7,4,Near
+30.98,user29@axis,Petrol Pump,Transport,7,6,Near
+34.31,user30@googlepay,Parking Fee,Transport,18,4,OK
+351.1,user31@axis,Cafe Coffee Day,Food & Dining,12,2,OK
+235.48,user32@googlepay,Doctor Fee,Healthcare,3,2,Over
+13.35,user33@axis,Bus Service,Transport,9,2,OK
+193.54,user34@razorpay,DTH,Bills,5,6,OK
+230.4,user35@phonepe,Subway,Food & Dining,8,0,OK
+23.46,user36@hdfc,Uber,Transport,7,0,Over
+328.86,user37@phonepe,Flipkart,Shopping,14,3,OK
+387.04,user38@paytm,Gas Bill,Bills,1,2,OK
+998.51,user39@hdfc,Nykaa,Shopping,18,0,OK
+605.23,user40@googlepay,Max Hospital,Healthcare,19,4,OK
+255.78,user41@hdfc,Electricity Bill,Bills,23,4,OK
+136.52,user42@hdfc,McDonald,Food & Dining,19,5,OK
+266.34,user43@paytm,Mobile Recharge,Bills,10,5,OK
+275.86,user44@razorpay,Mobile Recharge,Bills,17,6,OK
+571.72,user45@googlepay,John Doe,Personal,4,4,OK
+330.49,user46@phonepe,Internet Bill,Bills,4,6,OK
+164.43,user47@googlepay,McDonald,Food & Dining,19,2,Over
+819.37,user48@paytm,Flipkart,Shopping,16,2,OK
+270.29,user49@phonepe,Friend Transfer,Personal,19,3,OK
+1288.97,user50@hdfc,Myntra,Shopping,13,2,Near
+45.56,user51@razorpay,Parking Fee,Transport,8,3,OK
+472.14,user52@axis,Max Hospital,Healthcare,4,5,OK
+1402.59,user53@razorpay,Myntra,Shopping,13,3,Near
+150.58,user54@razorpay,Subway,Food & Dining,12,4,OK
+856.38,user55@googlepay,Pharmacy,Healthcare,23,1,OK
+865.4,user56@razorpay,Lab Test,Healthcare,18,5,OK
+159.77,user57@googlepay,Water Bill,Bills,5,4,OK
+1573.64,user58@paytm,Salary Credit,Personal,0,1,OK
+26.27,user59@razorpay,Bus Service,Transport,9,6,Over
+280.54,user60@hdfc,Gas Bill,Bills,19,6,OK
+176.88,user61@axis,Mobile Recharge,Bills,10,6,OK
+73.3,user62@hdfc,McDonald,Food & Dining,19,2,OK
+172.03,user63@googlepay,Gas Bill,Bills,5,0,Near
+688.12,user64@axis,John Doe,Personal,18,4,Near
+132.12,user65@razorpay,Apollo Hospital,Healthcare,20,1,Near
+260.27,user66@paytm,Water Bill,Bills,17,2,OK
+309.54,user67@razorpay,Pharmacy,Healthcare,8,5,OK
+689.7,user68@razorpay,Apollo Hospital,Healthcare,3,4,OK
+1774.98,user69@razorpay,Myntra,Shopping,15,3,OK
+321.85,user70@razorpay,Water Bill,Bills,9,0,OK
+99.33,user71@phonepe,Cafe Coffee Day,Food & Dining,13,2,OK
+19.58,user72@phonepe,Uber,Transport,9,6,OK
+21.37,user73@hdfc,Bus Service,Transport,18,1,Near
+85.18,user74@axis,Cafe Coffee Day,Food & Dining,8,2,OK
+600.01,user75@razorpay,Apollo Hospital,Healthcare,8,0,OK
+780.91,user76@razorpay,Amazon,Shopping,10,4,OK
+1667.22,user77@paytm,Big Bazaar,Shopping,18,6,Near
+1033.86,user78@hdfc,Myntra,Shopping,19,4,OK
+119.39,user79@googlepay,Swiggy,Food & Dining,9,1,Near
+1119.67,user80@paytm,Salary Credit,Personal,9,2,OK
+529.53,user81@axis,Salary Credit,Personal,3,5,OK
+219.61,user82@paytm,Mobile Recharge,Bills,8,1,OK
+1001.38,user83@razorpay,Amazon,Shopping,17,5,OK
+91.22,user84@phonepe,Swiggy,Food & Dining,13,6,Near
+33.04,user85@razorpay,Metro Card,Transport,18,2,OK
+888.96,user86@hdfc,Reliance,Shopping,14,6,OK
+1987.71,user87@phonepe,Flipkart,Shopping,21,3,OK
+29.78,user88@axis,Parking Fee,Transport,19,0,OK
+565.89,user89@hdfc,Medicine Shop,Healthcare,4,3,OK
+259.16,user90@axis,Internet Bill,Bills,13,6,Over
+1395.82,user91@hdfc,Refund,Personal,12,1,OK
+333.77,user92@razorpay,Nykaa,Shopping,14,0,OK
+178.0,user93@axis,McDonald,Food & Dining,9,1,OK
+20.02,user94@razorpay,Parking Fee,Transport,19,1,OK
+199.06,user95@razorpay,Apollo Hospital,Healthcare,10,1,Near
+214.51,user96@axis,Cafe Coffee Day,Food & Dining,13,3,OK
+271.27,user97@phonepe,Max Hospital,Healthcare,0,4,OK
+332.85,user98@hdfc,Pizza Hut,Food & Dining,8,6,OK
+126.32,user99@googlepay,Cafe Coffee Day,Food & Dining,13,2,Near
+38.44,user0@razorpay,Uber,Transport,8,2,OK
+193.06,user1@googlepay,Electricity Bill,Bills,19,3,Over
+104.03,user2@axis,Max Hospital,Healthcare,20,2,OK
+254.11,user3@paytm,Mobile Recharge,Bills,13,3,Near
+20.39,user4@googlepay,Bus Service,Transport,7,5,OK
+46.23,user5@axis,Ola,Transport,19,5,OK
+362.23,user6@hdfc,Internet Bill,Bills,19,0,OK
+491.85,user7@googlepay,Myntra,Shopping,16,5,Near
+287.8,user8@paytm,Internet Bill,Bills,19,4,Over
+47.18,user9@razorpay,Bus Service,Transport,7,3,OK
+146.93,user10@paytm,DTH,Bills,13,2,OK
+40.91,user11@razorpay,Petrol Pump,Transport,19,0,OK
+784.63,user12@axis,Max Hospital,Healthcare,8,6,OK
+408.78,user13@googlepay,Electricity Bill,Bills,15,5,OK
+427.61,user14@razorpay,Water Bill,Bills,15,3,OK
+228.07,user15@razorpay,Cafe Coffee Day,Food & Dining,19,0,Near
+21.15,user16@hdfc,Uber,Transport,9,1,OK
+982.46,user17@googlepay,John Doe,Personal,5,3,OK
+339.6,user18@phonepe,Lab Test,Healthcare,12,2,OK
+338.8,user19@hdfc,Big Bazaar,Shopping,16,0,OK
+195.83,user20@googlepay,DTH,Bills,11,5,OK
+160.13,user21@paytm,Max Hospital,Healthcare,0,0,OK
+18.14,user22@paytm,Petrol Pump,Transport,7,4,OK
+307.36,user23@paytm,Electricity Bill,Bills,7,2,Near
+858.63,user24@paytm,Nykaa,Shopping,19,2,OK
+290.1,user25@axis,Cafe Coffee Day,Food & Dining,8,0,Near
+50.93,user26@googlepay,Metro Card,Transport,18,2,OK
+1120.26,user27@axis,Refund,Personal,0,3,Near
+225.61,user28@phonepe,Refund,Personal,12,1,Over
+2683.93,user29@paytm,Friend Transfer,Personal,13,6,Near
+715.54,user30@axis,Max Hospital,Healthcare,0,6,OK
+20.45,user31@phonepe,Bus Service,Transport,17,0,OK
+35.43,user32@googlepay,Uber,Transport,7,1,OK
+1706.06,user33@paytm,Family Transfer,Personal,13,1,OK
+179.61,user34@hdfc,Subway,Food & Dining,12,4,Near
+42.72,user35@razorpay,Petrol Pump,Transport,8,0,OK
+96.66,user36@paytm,Metro Card,Transport,8,4,OK
+116.42,user37@hdfc,Subway,Food & Dining,8,5,Near
+24.64,user38@hdfc,Ola,Transport,7,4,Near
+358.66,user39@razorpay,Lab Test,Healthcare,1,2,OK
+142.72,user40@axis,Subway,Food & Dining,21,1,OK
+316.74,user41@razorpay,Doctor Fee,Healthcare,23,0,OK
+12.94,user42@googlepay,Parking Fee,Transport,9,2,OK
+270.52,user43@axis,Internet Bill,Bills,16,0,OK
+2234.36,user44@axis,Reliance,Shopping,13,0,OK
+450.66,user45@phonepe,Internet Bill,Bills,2,2,OK
+31.97,user46@googlepay,Petrol Pump,Transport,8,2,OK
+757.47,user47@axis,Refund,Personal,9,4,Near
+1161.61,user48@paytm,Reliance,Shopping,13,1,Near
+785.39,user49@axis,Refund,Personal,14,5,OK
+243.35,user50@axis,Mobile Recharge,Bills,12,1,OK
+38.82,user51@axis,Metro Card,Transport,9,1,Near
+30.96,user52@razorpay,Ola,Transport,17,4,Over
+27.42,user53@googlepay,Uber,Transport,17,6,OK
+87.33,user54@hdfc,Family Transfer,Personal,16,2,Near
+128.64,user55@razorpay,Swiggy,Food & Dining,12,4,OK
+1851.52,user56@axis,Friend Transfer,Personal,20,1,Near
+487.84,user57@razorpay,Pharmacy,Healthcare,20,5,OK
+763.84,user58@googlepay,Friend Transfer,Personal,11,5,OK
+3210.94,user59@phonepe,Reliance,Shopping,21,3,Over
+2621.38,user60@paytm,Pharmacy,Healthcare,22,6,Near
+48.56,user61@googlepay,Ola,Transport,7,2,Near
+1009.18,user62@paytm,Reliance,Shopping,13,6,Over
+633.75,user63@googlepay,Doctor Fee,Healthcare,16,0,Near
+292.38,user64@phonepe,Internet Bill,Bills,13,4,Near
+101.28,user65@phonepe,Gas Bill,Bills,21,2,Near
+1583.86,user66@paytm,Myntra,Shopping,18,2,OK
+283.43,user67@paytm,Internet Bill,Bills,18,1,OK
+304.15,user68@axis,Internet Bill,Bills,0,6,OK
+579.01,user69@paytm,Apollo Hospital,Healthcare,0,3,OK
+1435.81,user70@googlepay,Myntra,Shopping,15,2,OK
+174.47,user71@axis,Mobile Recharge,Bills,12,4,OK
+165.07,user72@phonepe,John Doe,Personal,7,0,OK
+468.39,user73@razorpay,Pharmacy,Healthcare,1,1,OK
+186.03,user74@hdfc,Nykaa,Shopping,17,5,OK
+514.12,user75@hdfc,Refund,Personal,6,0,OK
+209.99,user76@hdfc,Refund,Personal,21,6,Near
+1741.48,user77@phonepe,Flipkart,Shopping,13,5,OK
+315.14,user78@razorpay,Water Bill,Bills,23,6,OK
+1918.79,user79@hdfc,John Doe,Personal,22,1,OK
+1037.92,user80@paytm,Flipkart,Shopping,18,3,OK
+222.77,user81@hdfc,Swiggy,Food & Dining,19,1,OK
+189.14,user82@googlepay,Electricity Bill,Bills,10,0,OK
+260.55,user83@phonepe,Pizza Hut,Food & Dining,9,3,OK
+15.61,user84@phonepe,Parking Fee,Transport,17,2,OK
+256.91,user85@phonepe,DMart,Shopping,10,3,OK
+926.57,user86@razorpay,Refund,Personal,23,3,OK
+163.98,user87@googlepay,KFC,Food & Dining,8,4,OK
+365.91,user88@paytm,Doctor Fee,Healthcare,15,6,OK
+27.66,user89@razorpay,Ola,Transport,19,2,OK
+275.22,user90@paytm,Cafe Coffee Day,Food & Dining,21,1,OK
+222.29,user91@axis,Internet Bill,Bills,21,5,OK
+522.17,user92@razorpay,Refund,Personal,6,3,OK
+215.86,user93@hdfc,Mobile Recharge,Bills,11,4,OK
+221.72,user94@hdfc,Electricity Bill,Bills,2,4,OK
+293.23,user95@phonepe,Water Bill,Bills,20,3,OK
+154.84,user96@phonepe,Gas Bill,Bills,21,0,OK
+21.04,user97@razorpay,Uber,Transport,9,6,OK
+243.28,user98@hdfc,Mobile Recharge,Bills,3,1,OK
+130.13,user99@paytm,McDonald,Food & Dining,21,3,OK
+474.45,user0@paytm,Max Hospital,Healthcare,9,2,OK
+1600.82,user1@axis,DMart,Shopping,15,6,OK
+97.19,user2@googlepay,Zomato,Food & Dining,8,5,OK
+2278.44,user3@googlepay,Salary Credit,Personal,12,6,Over
+178.68,user4@googlepay,Pizza Hut,Food & Dining,19,5,OK
+3474.61,user5@razorpay,Friend Transfer,Personal,1,1,Near
+448.6,user6@razorpay,Max Hospital,Healthcare,22,4,OK
+678.81,user7@googlepay,Big Bazaar,Shopping,21,5,OK
+1295.07,user8@googlepay,Reliance,Shopping,18,1,OK
+36.62,user9@razorpay,Parking Fee,Transport,18,3,OK
+54.45,user10@hdfc,Metro Card,Transport,7,6,OK
+324.07,user11@razorpay,Flipkart,Shopping,10,1,OK
+141.12,user12@axis,Pizza Hut,Food & Dining,20,2,OK
+430.48,user13@hdfc,DMart,Shopping,14,5,OK
+165.29,user14@razorpay,Water Bill,Bills,2,5,Near
+1328.31,user15@googlepay,John Doe,Personal,11,0,OK
+713.91,user16@googlepay,Family Transfer,Personal,5,0,OK
+609.1,user17@phonepe,Medicine Shop,Healthcare,11,2,OK
+35.34,user18@googlepay,Petrol Pump,Transport,17,3,OK
+1142.96,user19@phonepe,Family Transfer,Personal,16,2,OK
+1540.69,user20@googlepay,Nykaa,Shopping,13,6,OK
+126.61,user21@hdfc,Pizza Hut,Food & Dining,13,1,OK
+558.03,user22@phonepe,Apollo Hospital,Healthcare,9,6,OK
+591.44,user23@googlepay,Max Hospital,Healthcare,22,2,OK
+424.05,user24@googlepay,Cafe Coffee Day,Food & Dining,9,3,OK
+545.87,user25@paytm,Big Bazaar,Shopping,10,0,OK
+32.01,user26@axis,Bus Service,Transport,8,5,OK
+251.99,user27@razorpay,Doctor Fee,Healthcare,19,4,OK
+189.35,user28@hdfc,Swiggy,Food & Dining,19,1,Over
+1125.54,user29@googlepay,DMart,Shopping,18,4,OK
+63.24,user30@phonepe,Parking Fee,Transport,9,4,OK
+1217.26,user31@razorpay,Refund,Personal,13,3,Near
+393.45,user32@hdfc,Reliance,Shopping,12,6,OK
+99.85,user33@axis,Pizza Hut,Food & Dining,13,1,Near
+107.07,user34@paytm,Pizza Hut,Food & Dining,13,2,OK
+3690.0,user35@hdfc,Salary Credit,Personal,22,4,OK
+557.96,user36@axis,Friend Transfer,Personal,9,6,OK
+1134.73,user37@razorpay,Salary Credit,Personal,2,2,OK
+649.08,user38@phonepe,Lab Test,Healthcare,14,0,Near
+265.33,user39@googlepay,Myntra,Shopping,14,0,OK
+309.52,user40@hdfc,Electricity Bill,Bills,21,3,Over
+852.75,user41@phonepe,Refund,Personal,7,0,OK
+739.97,user42@hdfc,Big Bazaar,Shopping,10,2,OK
+61.89,user43@googlepay,Zomato,Food & Dining,13,3,OK
+1133.8,user44@phonepe,Refund,Personal,18,3,Over
+22.59,user45@axis,Petrol Pump,Transport,7,6,OK
+314.72,user46@razorpay,Electricity Bill,Bills,8,4,OK
+261.89,user47@razorpay,Doctor Fee,Healthcare,2,0,OK
+913.33,user48@googlepay,Friend Transfer,Personal,3,3,OK
+15.09,user49@hdfc,Bus Service,Transport,9,5,OK
+739.06,user50@paytm,DMart,Shopping,12,5,OK
+23.11,user51@hdfc,Parking Fee,Transport,7,4,OK
+1322.35,user52@hdfc,John Doe,Personal,3,3,OK
+36.31,user53@googlepay,Uber,Transport,18,6,OK
+495.01,user54@googlepay,Nykaa,Shopping,10,3,OK
+1265.71,user55@axis,John Doe,Personal,11,0,Over
+105.36,user56@paytm,McDonald,Food & Dining,12,0,OK
+31.17,user57@razorpay,Petrol Pump,Transport,18,2,OK
+210.71,user58@hdfc,Cafe Coffee Day,Food & Dining,21,5,OK
+2578.99,user59@paytm,Salary Credit,Personal,23,1,Over
+181.72,user60@razorpay,Swiggy,Food & Dining,9,5,OK
+241.6,user61@paytm,Electricity Bill,Bills,4,1,OK
+99.63,user62@googlepay,Pizza Hut,Food & Dining,12,1,OK
+685.06,user63@phonepe,Reliance,Shopping,17,1,OK
+26.61,user64@phonepe,Metro Card,Transport,17,2,OK
+225.54,user65@googlepay,Gas Bill,Bills,1,5,Over
+1280.52,user66@razorpay,Amazon,Shopping,18,2,OK
+2276.39,user67@paytm,DMart,Shopping,13,0,OK
+560.08,user68@paytm,DMart,Shopping,15,3,OK
+1446.34,user69@paytm,Salary Credit,Personal,0,0,OK
+216.8,user70@phonepe,McDonald,Food & Dining,20,5,OK
+59.36,user71@axis,Petrol Pump,Transport,8,2,Near
+169.09,user72@googlepay,McDonald,Food & Dining,12,0,OK
+496.7,user73@phonepe,Apollo Hospital,Healthcare,10,0,OK
+518.75,user74@hdfc,Doctor Fee,Healthcare,14,6,OK
+1935.15,user75@axis,John Doe,Personal,15,1,OK
+961.28,user76@phonepe,Big Bazaar,Shopping,11,5,Over
+225.96,user77@axis,Myntra,Shopping,12,3,Near
+374.32,user78@googlepay,Internet Bill,Bills,23,2,OK
+300.19,user79@googlepay,Water Bill,Bills,16,0,OK
+100.18,user80@googlepay,Subway,Food & Dining,20,4,OK
+275.6,user81@phonepe,Family Transfer,Personal,10,2,OK
+588.06,user82@googlepay,Max Hospital,Healthcare,17,1,OK
+770.78,user83@axis,Amazon,Shopping,13,5,OK
+48.99,user84@hdfc,Petrol Pump,Transport,19,1,OK
+180.92,user85@phonepe,Gas Bill,Bills,15,4,OK
+734.54,user86@razorpay,Doctor Fee,Healthcare,14,3,OK
+2857.75,user87@phonepe,Friend Transfer,Personal,3,3,OK
+129.57,user88@axis,Cafe Coffee Day,Food & Dining,8,4,OK
+449.83,user89@paytm,Pharmacy,Healthcare,9,0,OK
+117.06,user90@paytm,Cafe Coffee Day,Food & Dining,8,5,OK
+831.46,user91@axis,Medicine Shop,Healthcare,21,0,OK
+722.44,user92@phonepe,Salary Credit,Personal,16,6,OK
+816.4,user93@paytm,Salary Credit,Personal,17,5,OK
+392.16,user94@razorpay,Electricity Bill,Bills,18,5,OK
+26.25,user95@googlepay,Bus Service,Transport,8,0,OK
+188.67,user96@paytm,DTH,Bills,23,2,OK
+169.4,user97@phonepe,Electricity Bill,Bills,18,2,OK
+39.73,user98@axis,Cafe Coffee Day,Food & Dining,20,0,OK
+148.66,user99@phonepe,Cafe Coffee Day,Food & Dining,19,4,OK
+171.72,user0@axis,Subway,Food & Dining,12,6,OK
+120.0,user1@googlepay,Zomato,Food & Dining,20,0,Near
+8338.42,user2@paytm,John Doe,Personal,15,0,Near
+239.66,user3@googlepay,Cafe Coffee Day,Food & Dining,8,5,Near
+486.09,user4@axis,Medicine Shop,Healthcare,18,2,Near
+16.06,user5@phonepe,Metro Card,Transport,18,5,OK
+46.5,user6@paytm,Ola,Transport,17,6,OK
+48.26,user7@hdfc,Cafe Coffee Day,Food & Dining,9,1,OK
+108.46,user8@googlepay,Doctor Fee,Healthcare,18,2,OK
+294.69,user9@googlepay,Mobile Recharge,Bills,19,2,OK
+42.97,user10@razorpay,Petrol Pump,Transport,7,0,OK
+267.7,user11@razorpay,DMart,Shopping,17,6,OK
+271.31,user12@razorpay,Swiggy,Food & Dining,20,6,OK
+587.02,user13@axis,Pizza Hut,Food & Dining,19,2,OK
+35.18,user14@googlepay,Bus Service,Transport,18,1,Near
+974.7,user15@hdfc,Family Transfer,Personal,3,1,OK
+195.47,user16@googlepay,Water Bill,Bills,10,5,OK
+63.43,user17@razorpay,Cafe Coffee Day,Food & Dining,12,1,OK
+900.93,user18@googlepay,Reliance,Shopping,19,1,OK
+2409.7,user19@hdfc,Nykaa,Shopping,11,5,Near
+252.02,user20@razorpay,Electricity Bill,Bills,0,5,OK
+1040.2,user21@hdfc,Family Transfer,Personal,13,4,Near
+1087.05,user22@razorpay,Nykaa,Shopping,16,6,OK
+1015.07,user23@paytm,DMart,Shopping,13,3,OK
+786.32,user24@phonepe,Refund,Personal,4,3,OK
+283.57,user25@axis,Electricity Bill,Bills,23,5,Near
+685.98,user26@googlepay,Family Transfer,Personal,21,4,OK
+633.49,user27@axis,Lab Test,Healthcare,10,4,OK
+615.31,user28@googlepay,Big Bazaar,Shopping,10,2,OK
+662.63,user29@razorpay,John Doe,Personal,21,2,OK
+1393.52,user30@googlepay,John Doe,Personal,3,6,Near
+979.78,user31@phonepe,Big Bazaar,Shopping,12,4,Near
+35.78,user32@axis,Uber,Transport,9,2,OK
+26.02,user33@googlepay,Uber,Transport,17,2,Near
+273.22,user34@phonepe,Water Bill,Bills,4,2,OK
+92.76,user35@paytm,Pharmacy,Healthcare,16,1,OK
+324.23,user36@razorpay,Internet Bill,Bills,23,6,Near
+768.98,user37@googlepay,Friend Transfer,Personal,8,5,OK
+81.21,user38@paytm,Subway,Food & Dining,13,5,OK
+1593.19,user39@googlepay,Family Transfer,Personal,19,1,Near
+70.98,user40@phonepe,Bus Service,Transport,19,2,OK
+212.95,user41@hdfc,Gas Bill,Bills,12,1,OK
+762.93,user42@axis,Reliance,Shopping,21,2,OK
+523.06,user43@hdfc,Myntra,Shopping,10,3,Near
+278.28,user44@paytm,Internet Bill,Bills,14,2,OK
+28.89,user45@paytm,Metro Card,Transport,17,4,Near
+482.93,user46@phonepe,Salary Credit,Personal,11,0,OK
+136.9,user47@phonepe,Gas Bill,Bills,18,5,OK
+356.47,user48@axis,Max Hospital,Healthcare,5,1,OK
+136.45,user49@razorpay,Medicine Shop,Healthcare,4,5,OK
+20.03,user50@paytm,Petrol Pump,Transport,17,1,OK
+607.8,user51@hdfc,Doctor Fee,Healthcare,12,3,OK
+747.57,user52@googlepay,Max Hospital,Healthcare,23,6,OK
+309.15,user53@hdfc,Pharmacy,Healthcare,4,5,OK
+31.87,user54@phonepe,Bus Service,Transport,7,0,OK
+61.06,user55@paytm,Subway,Food & Dining,9,4,OK
+295.59,user56@axis,Gas Bill,Bills,11,0,Near
+53.53,user57@phonepe,Zomato,Food & Dining,13,1,OK
+39.46,user58@googlepay,Friend Transfer,Personal,18,3,OK
+205.38,user59@hdfc,Nykaa,Shopping,16,3,OK
+7362.37,user60@razorpay,Refund,Personal,13,6,Near
+334.61,user61@razorpay,Cafe Coffee Day,Food & Dining,12,5,OK
+597.12,user62@hdfc,John Doe,Personal,1,5,OK
+208.15,user63@phonepe,Electricity Bill,Bills,5,5,OK
+54.34,user64@razorpay,Metro Card,Transport,18,6,OK
+95.73,user65@phonepe,Subway,Food & Dining,8,6,OK
+644.88,user66@razorpay,Pharmacy,Healthcare,9,1,OK
+4297.62,user67@axis,Friend Transfer,Personal,21,3,Near
+159.34,user68@axis,Swiggy,Food & Dining,12,1,OK
+1948.28,user69@phonepe,Friend Transfer,Personal,15,6,OK
+266.62,user70@axis,KFC,Food & Dining,19,2,OK
+123.63,user71@phonepe,Pizza Hut,Food & Dining,13,6,Near
+93.8,user72@googlepay,Doctor Fee,Healthcare,21,6,OK
+66.01,user73@axis,Ola,Transport,7,6,OK
+155.22,user74@phonepe,Electricity Bill,Bills,11,0,OK
+306.49,user75@paytm,Internet Bill,Bills,10,6,OK
+209.09,user76@hdfc,Swiggy,Food & Dining,21,5,OK
+6964.69,user77@paytm,Refund,Personal,18,5,OK
+30.63,user78@googlepay,Metro Card,Transport,9,1,OK
+385.7,user79@hdfc,Medicine Shop,Healthcare,16,5,OK
+1061.94,user80@paytm,Max Hospital,Healthcare,19,3,OK
+64.33,user81@paytm,Bus Service,Transport,8,4,OK
+86.13,user82@phonepe,McDonald,Food & Dining,12,3,OK
+78.28,user83@razorpay,Subway,Food & Dining,13,1,Near
+45.56,user84@phonepe,Uber,Transport,19,4,OK
+22.31,user85@phonepe,Ola,Transport,19,5,OK
+273.45,user86@paytm,Max Hospital,Healthcare,2,1,Near
+23.37,user87@phonepe,Bus Service,Transport,7,4,OK
+349.15,user88@phonepe,Reliance,Shopping,16,0,OK
+331.5,user89@razorpay,Internet Bill,Bills,20,0,Near
+262.12,user90@phonepe,Gas Bill,Bills,5,4,OK
+409.03,user91@paytm,Mobile Recharge,Bills,14,5,OK
+478.74,user92@googlepay,DMart,Shopping,21,6,OK
+598.99,user93@googlepay,DMart,Shopping,21,2,OK
+966.2,user94@axis,Flipkart,Shopping,14,1,OK
+40.55,user95@googlepay,Parking Fee,Transport,19,4,OK
+1352.38,user96@phonepe,Amazon,Shopping,20,3,OK
+4987.96,user97@axis,John Doe,Personal,7,6,Near
+239.9,user98@razorpay,Mobile Recharge,Bills,14,1,OK
+185.92,user99@axis,McDonald,Food & Dining,8,6,OK
+182.73,user0@hdfc,Zomato,Food & Dining,9,4,OK
+192.6,user1@paytm,Internet Bill,Bills,12,5,Near
+266.36,user2@googlepay,Water Bill,Bills,15,5,Near
+224.26,user3@axis,DTH,Bills,14,4,OK
+15.68,user4@hdfc,Parking Fee,Transport,9,3,OK
+487.45,user5@axis,Amazon,Shopping,16,0,OK
+1226.3,user6@paytm,Reliance,Shopping,11,1,OK
+168.62,user7@googlepay,DTH,Bills,12,6,OK
+50.04,user8@phonepe,Bus Service,Transport,17,3,OK
+1034.9,user9@paytm,Doctor Fee,Healthcare,16,6,OK
+66.29,user10@hdfc,Bus Service,Transport,19,4,OK
+221.46,user11@razorpay,Medicine Shop,Healthcare,15,3,Near
+241.18,user12@paytm,Family Transfer,Personal,23,6,OK
+1512.61,user13@googlepay,Family Transfer,Personal,7,6,Over
+240.94,user14@axis,DMart,Shopping,19,5,OK
+6018.03,user15@hdfc,Refund,Personal,6,3,Near
+737.49,user16@phonepe,Refund,Personal,22,5,OK
+537.74,user17@googlepay,Amazon,Shopping,14,1,OK
+31.89,user18@hdfc,Ola,Transport,7,2,OK
+277.52,user19@googlepay,Internet Bill,Bills,21,0,OK
+917.62,user20@paytm,John Doe,Personal,17,0,OK
+223.32,user21@hdfc,Big Bazaar,Shopping,14,6,OK
+162.94,user22@phonepe,McDonald,Food & Dining,21,0,OK
+87.57,user23@paytm,KFC,Food & Dining,9,5,OK
+117.92,user24@axis,KFC,Food & Dining,9,2,OK
+423.03,user25@hdfc,Refund,Personal,6,6,OK
+487.61,user26@googlepay,Reliance,Shopping,12,1,Near
+218.94,user27@phonepe,Myntra,Shopping,18,3,OK
+513.41,user28@googlepay,Lab Test,Healthcare,1,1,OK
+239.29,user29@paytm,Mobile Recharge,Bills,11,4,Near
+2070.74,user30@razorpay,Friend Transfer,Personal,4,1,OK
+207.55,user31@hdfc,Gas Bill,Bills,14,3,OK
+659.35,user32@razorpay,Nykaa,Shopping,14,4,OK
+200.89,user33@axis,Mobile Recharge,Bills,18,4,OK
+64.99,user34@phonepe,Bus Service,Transport,17,1,OK
+1543.33,user35@axis,Salary Credit,Personal,12,2,Near
+19.97,user36@hdfc,Petrol Pump,Transport,7,6,OK
+176.26,user37@paytm,Mobile Recharge,Bills,14,6,Near
+186.31,user38@razorpay,Max Hospital,Healthcare,10,4,OK
+787.77,user39@phonepe,Salary Credit,Personal,1,4,Over
+291.68,user40@googlepay,Medicine Shop,Healthcare,2,0,OK
+389.69,user41@razorpay,Family Transfer,Personal,19,1,OK
+144.28,user42@razorpay,KFC,Food & Dining,8,2,OK
+489.72,user43@paytm,Nykaa,Shopping,11,3,OK
+41.31,user44@phonepe,Bus Service,Transport,18,1,OK
+185.74,user45@phonepe,Lab Test,Healthcare,18,1,OK
+27.63,user46@phonepe,Metro Card,Transport,8,2,OK
+232.14,user47@hdfc,Swiggy,Food & Dining,13,5,OK
+395.68,user48@paytm,Apollo Hospital,Healthcare,9,0,OK
+218.89,user49@axis,Water Bill,Bills,14,4,OK
+189.8,user50@razorpay,Electricity Bill,Bills,1,3,OK
+1807.49,user51@razorpay,Amazon,Shopping,19,0,OK
+1107.99,user52@paytm,Max Hospital,Healthcare,23,5,OK
+126.23,user53@razorpay,Water Bill,Bills,14,3,OK
+206.73,user54@razorpay,Refund,Personal,11,5,OK
+3161.27,user55@axis,Salary Credit,Personal,21,5,Near
+743.64,user56@axis,Apollo Hospital,Healthcare,19,1,OK
+27.14,user57@googlepay,Metro Card,Transport,18,3,OK
+186.53,user58@hdfc,DTH,Bills,12,6,OK
+916.84,user59@phonepe,Apollo Hospital,Healthcare,8,5,Near
+1462.62,user60@axis,Refund,Personal,13,6,Near
+45.31,user61@hdfc,Uber,Transport,17,2,OK
+4155.5,user62@razorpay,John Doe,Personal,21,1,Near
+36.26,user63@googlepay,Uber,Transport,7,3,OK
+337.2,user64@paytm,Internet Bill,Bills,2,3,OK
+715.48,user65@razorpay,DMart,Shopping,10,0,OK
+182.02,user66@razorpay,Gas Bill,Bills,2,4,OK
+1088.97,user67@googlepay,Doctor Fee,Healthcare,19,0,Near
+305.98,user68@hdfc,Internet Bill,Bills,12,4,OK
+1105.01,user69@googlepay,Lab Test,Healthcare,14,4,Near
+54.36,user70@axis,Bus Service,Transport,9,1,OK
+2641.34,user71@googlepay,Apollo Hospital,Healthcare,19,2,Over
+383.0,user72@googlepay,Pharmacy,Healthcare,10,5,OK
+232.93,user73@razorpay,DTH,Bills,19,5,OK
+176.36,user74@googlepay,Pizza Hut,Food & Dining,20,6,OK
+3969.93,user75@razorpay,Salary Credit,Personal,11,1,Near
+28.51,user76@paytm,Metro Card,Transport,7,4,OK
+361.8,user77@hdfc,Pharmacy,Healthcare,3,2,Near
+1279.85,user78@paytm,Big Bazaar,Shopping,16,1,OK
+123.29,user79@razorpay,Amazon,Shopping,15,4,OK
+244.61,user80@axis,DTH,Bills,2,5,OK
+532.69,user81@axis,Friend Transfer,Personal,18,5,OK
+182.85,user82@phonepe,Mobile Recharge,Bills,9,6,OK
+48.35,user83@axis,Zomato,Food & Dining,9,1,OK
+482.22,user84@razorpay,Myntra,Shopping,21,4,OK
+213.83,user85@paytm,McDonald,Food & Dining,12,5,OK
+260.8,user86@razorpay,Water Bill,Bills,23,2,OK
+49.94,user87@razorpay,Metro Card,Transport,9,5,OK
+383.07,user88@hdfc,Doctor Fee,Healthcare,3,4,OK
+626.07,user89@hdfc,Nykaa,Shopping,18,3,OK
+51.32,user90@axis,Ola,Transport,8,1,OK
+184.33,user91@axis,Subway,Food & Dining,9,1,Over
+358.05,user92@hdfc,DTH,Bills,18,4,OK
+1693.63,user93@razorpay,Friend Transfer,Personal,9,0,OK
+199.84,user94@axis,DTH,Bills,14,1,OK
+304.25,user95@phonepe,Pharmacy,Healthcare,17,2,OK
+328.53,user96@razorpay,Pharmacy,Healthcare,10,3,OK
+71.9,user97@hdfc,Swiggy,Food & Dining,19,5,OK
+521.87,user98@razorpay,Amazon,Shopping,20,6,OK
+393.91,user99@axis,Medicine Shop,Healthcare,22,0,OK
+372.46,user0@axis,Gas Bill,Bills,9,2,OK
+41.33,user1@googlepay,Metro Card,Transport,9,1,OK
+266.63,user2@phonepe,Mobile Recharge,Bills,18,2,OK
+70.18,user3@axis,Lab Test,Healthcare,18,4,OK
+41.21,user4@hdfc,Uber,Transport,7,6,OK
+702.8,user5@paytm,Amazon,Shopping,15,0,OK
+263.74,user6@paytm,Big Bazaar,Shopping,10,0,Near
+458.58,user7@paytm,McDonald,Food & Dining,9,5,OK
+450.89,user8@hdfc,Apollo Hospital,Healthcare,4,2,OK
+759.55,user9@razorpay,John Doe,Personal,13,3,OK
+85.05,user10@razorpay,McDonald,Food & Dining,21,0,OK
+1392.86,user11@googlepay,Apollo Hospital,Healthcare,3,5,Over
+319.66,user12@phonepe,Myntra,Shopping,14,0,OK
+1648.19,user13@razorpay,Flipkart,Shopping,19,6,OK
+4752.64,user14@phonepe,Family Transfer,Personal,18,2,OK
+358.21,user15@paytm,DTH,Bills,21,4,OK
+208.16,user16@razorpay,Pizza Hut,Food & Dining,20,2,OK
+1108.92,user17@razorpay,Lab Test,Healthcare,0,2,OK
+632.31,user18@razorpay,Friend Transfer,Personal,5,4,OK
+456.37,user19@razorpay,DTH,Bills,15,3,OK
+1823.6,user20@paytm,Salary Credit,Personal,7,4,Over
+399.09,user21@hdfc,Internet Bill,Bills,22,2,OK
+315.6,user22@googlepay,John Doe,Personal,20,0,OK
+528.51,user23@googlepay,Salary Credit,Personal,17,2,Near
+866.69,user24@axis,Nykaa,Shopping,15,2,OK
+306.59,user25@axis,Subway,Food & Dining,19,1,OK
+736.46,user26@paytm,Friend Transfer,Personal,20,3,OK
+407.67,user27@googlepay,Amazon,Shopping,19,1,OK
+204.44,user28@googlepay,Cafe Coffee Day,Food & Dining,21,4,OK
+733.97,user29@googlepay,Amazon,Shopping,13,4,OK
+262.1,user30@googlepay,Electricity Bill,Bills,15,1,OK
+253.96,user31@googlepay,KFC,Food & Dining,12,0,OK
+192.23,user32@axis,Swiggy,Food & Dining,9,1,OK
+206.39,user33@phonepe,Gas Bill,Bills,5,0,OK
+1083.32,user34@razorpay,Myntra,Shopping,17,3,OK
+340.2,user35@googlepay,Cafe Coffee Day,Food & Dining,8,1,Near
+243.4,user36@axis,McDonald,Food & Dining,21,1,Near
+3865.95,user37@paytm,Salary Credit,Personal,9,4,Near
+16.03,user38@phonepe,Petrol Pump,Transport,17,0,OK
+178.11,user39@axis,Mobile Recharge,Bills,22,6,Over
+2192.63,user40@paytm,Family Transfer,Personal,17,3,OK
+2286.18,user41@phonepe,Family Transfer,Personal,12,1,Near
+199.1,user42@googlepay,Internet Bill,Bills,21,3,OK
+143.48,user43@paytm,Internet Bill,Bills,18,5,OK
+882.87,user44@razorpay,Apollo Hospital,Healthcare,13,0,OK
+195.76,user45@hdfc,Internet Bill,Bills,16,0,Near
+49.21,user46@axis,Ola,Transport,8,0,OK
+26.19,user47@phonepe,Ola,Transport,8,3,OK
+217.39,user48@googlepay,Gas Bill,Bills,13,2,OK
+233.79,user49@hdfc,Water Bill,Bills,2,2,Near
+36.59,user50@razorpay,Ola,Transport,19,2,Near
+206.34,user51@axis,Internet Bill,Bills,6,0,Over
+380.78,user52@googlepay,Mobile Recharge,Bills,12,6,OK
+364.85,user53@phonepe,Mobile Recharge,Bills,22,0,Near
+2004.39,user54@googlepay,Friend Transfer,Personal,8,2,Near
+468.47,user55@razorpay,John Doe,Personal,19,6,OK
+193.58,user56@phonepe,Gas Bill,Bills,17,1,OK
+215.48,user57@googlepay,Internet Bill,Bills,14,1,OK
+329.96,user58@phonepe,Gas Bill,Bills,19,0,OK
+196.59,user59@phonepe,Mobile Recharge,Bills,13,0,OK
+200.07,user60@hdfc,Gas Bill,Bills,21,1,OK
+139.13,user61@axis,KFC,Food & Dining,19,3,OK
+190.04,user62@razorpay,Internet Bill,Bills,15,1,OK
+1641.21,user63@axis,Family Transfer,Personal,5,0,Over
+494.26,user64@googlepay,Salary Credit,Personal,9,0,OK
+2575.25,user65@axis,Pharmacy,Healthcare,21,5,Over
+255.91,user66@razorpay,Internet Bill,Bills,0,6,OK
+329.68,user67@paytm,Doctor Fee,Healthcare,17,2,OK
+374.45,user68@axis,Max Hospital,Healthcare,17,5,OK
+27.62,user69@hdfc,Parking Fee,Transport,8,0,Near
+30.42,user70@phonepe,Petrol Pump,Transport,9,6,OK
+384.24,user71@razorpay,DTH,Bills,0,3,Over
+815.95,user72@phonepe,Big Bazaar,Shopping,18,2,OK
+16.67,user73@hdfc,Metro Card,Transport,19,3,Near
+100.38,user74@paytm,KFC,Food & Dining,21,6,OK
+237.04,user75@axis,Medicine Shop,Healthcare,21,2,Near
+54.06,user76@paytm,Uber,Transport,19,1,OK
+254.69,user77@hdfc,DTH,Bills,22,0,Near
+31.91,user78@googlepay,Metro Card,Transport,18,4,OK
+301.63,user79@phonepe,Family Transfer,Personal,15,3,OK
+25.64,user80@hdfc,Uber,Transport,8,5,Over
+187.3,user81@paytm,Internet Bill,Bills,1,1,OK
+2111.12,user82@axis,Salary Credit,Personal,19,0,OK
+1272.37,user83@paytm,Myntra,Shopping,12,1,OK
+489.68,user84@axis,DMart,Shopping,16,2,Near
+602.46,user85@hdfc,Nykaa,Shopping,19,0,OK
+350.43,user86@paytm,Gas Bill,Bills,22,4,OK
+70.95,user87@phonepe,Subway,Food & Dining,21,2,Near
+20.09,user88@phonepe,Uber,Transport,19,6,OK
+274.13,user89@paytm,Myntra,Shopping,13,4,OK
+153.88,user90@paytm,Swiggy,Food & Dining,12,3,OK
+260.96,user91@phonepe,Internet Bill,Bills,16,5,OK
+1875.91,user92@googlepay,Nykaa,Shopping,15,6,OK
+274.31,user93@paytm,Amazon,Shopping,14,2,OK
+1088.93,user94@paytm,Friend Transfer,Personal,23,0,OK
+883.94,user95@googlepay,Family Transfer,Personal,15,5,OK
+194.14,user96@phonepe,Refund,Personal,9,4,Near
+294.97,user97@hdfc,Doctor Fee,Healthcare,12,1,OK
+179.58,user98@paytm,Cafe Coffee Day,Food & Dining,13,6,Near
+957.26,user99@googlepay,John Doe,Personal,14,3,OK
+3173.67,user0@axis,Reliance,Shopping,21,0,Near
+31.45,user1@razorpay,Ola,Transport,7,1,OK
+113.23,user2@googlepay,McDonald,Food & Dining,12,0,Near
+851.34,user3@hdfc,Lab Test,Healthcare,20,5,OK
+313.96,user4@phonepe,Doctor Fee,Healthcare,9,5,OK
+5555.77,user5@paytm,Salary Credit,Personal,5,3,OK
+262.14,user6@razorpay,Internet Bill,Bills,0,1,OK
+22.9,user7@phonepe,Bus Service,Transport,17,4,OK
+325.34,user8@hdfc,Mobile Recharge,Bills,11,0,OK
+634.27,user9@razorpay,Reliance,Shopping,19,4,OK
+1434.03,user10@googlepay,Flipkart,Shopping,21,1,OK
+281.11,user11@razorpay,Internet Bill,Bills,22,3,OK
+355.97,user12@hdfc,Internet Bill,Bills,5,4,Near
+229.01,user13@axis,Reliance,Shopping,13,2,OK
+46.59,user14@googlepay,Metro Card,Transport,9,4,OK
+757.95,user15@axis,John Doe,Personal,14,2,OK
+341.2,user16@axis,Friend Transfer,Personal,16,1,OK
+192.53,user17@googlepay,Pizza Hut,Food & Dining,20,1,OK
+184.13,user18@phonepe,DTH,Bills,22,5,OK
+1079.62,user19@googlepay,Amazon,Shopping,10,2,OK
+248.77,user20@googlepay,McDonald,Food & Dining,8,3,OK
+1494.4,user21@axis,Reliance,Shopping,10,1,OK
+57.11,user22@googlepay,Metro Card,Transport,7,1,OK
+1272.11,user23@razorpay,Doctor Fee,Healthcare,3,1,Near
+7505.91,user24@axis,Family Transfer,Personal,21,1,OK
+234.57,user25@paytm,Max Hospital,Healthcare,6,3,Near
+52.51,user26@paytm,Swiggy,Food & Dining,21,5,OK
+29.13,user27@axis,Ola,Transport,19,2,OK
+220.79,user28@razorpay,Gas Bill,Bills,0,2,OK
+61.39,user29@hdfc,McDonald,Food & Dining,13,1,OK
+161.14,user30@paytm,McDonald,Food & Dining,8,2,OK
+391.81,user31@paytm,Pharmacy,Healthcare,22,4,OK
+651.41,user32@phonepe,Family Transfer,Personal,1,3,OK
+225.71,user33@axis,Family Transfer,Personal,13,5,OK
+210.41,user34@phonepe,Mobile Recharge,Bills,16,2,Near
+150.19,user35@razorpay,Apollo Hospital,Healthcare,14,4,OK
+266.7,user36@paytm,Big Bazaar,Shopping,19,6,OK
+816.69,user37@paytm,Max Hospital,Healthcare,20,0,OK
+217.92,user38@phonepe,Family Transfer,Personal,2,1,OK
+845.32,user39@razorpay,Nykaa,Shopping,21,1,OK
+933.51,user40@razorpay,DMart,Shopping,14,6,Near
+309.57,user41@axis,Mobile Recharge,Bills,8,6,Near
+22.42,user42@razorpay,Ola,Transport,19,1,Near
+48.15,user43@googlepay,Bus Service,Transport,18,5,OK
+129.7,user44@axis,Max Hospital,Healthcare,16,2,Near
+29.07,user45@axis,Petrol Pump,Transport,18,6,OK
+86.05,user46@googlepay,Amazon,Shopping,13,5,OK
+1263.25,user47@phonepe,Family Transfer,Personal,13,1,Near
+1917.26,user48@paytm,Family Transfer,Personal,3,4,OK
+921.36,user49@hdfc,John Doe,Personal,9,2,OK
+244.64,user50@phonepe,Refund,Personal,11,5,Over
+233.88,user51@axis,Apollo Hospital,Healthcare,22,3,OK
+30.57,user52@phonepe,Uber,Transport,9,5,OK
+166.65,user53@axis,KFC,Food & Dining,13,4,OK
+934.89,user54@paytm,Nykaa,Shopping,13,4,OK
+562.77,user55@hdfc,Amazon,Shopping,20,2,Near
+850.77,user56@paytm,Myntra,Shopping,15,6,OK
+21.37,user57@paytm,Uber,Transport,17,6,OK
+346.46,user58@paytm,Internet Bill,Bills,16,3,OK
+1149.49,user59@razorpay,John Doe,Personal,3,5,OK
+45.44,user60@razorpay,Petrol Pump,Transport,8,6,OK
+1654.73,user61@hdfc,Salary Credit,Personal,11,6,OK
+170.38,user62@hdfc,Salary Credit,Personal,17,4,Near
+1226.99,user63@razorpay,Family Transfer,Personal,13,5,OK
+137.01,user64@phonepe,Medicine Shop,Healthcare,11,4,OK
+584.93,user65@paytm,DMart,Shopping,16,1,OK
+214.72,user66@razorpay,Refund,Personal,18,4,OK
+125.78,user67@paytm,Subway,Food & Dining,20,4,OK
+116.82,user68@hdfc,Zomato,Food & Dining,21,3,OK
+38.24,user69@hdfc,Metro Card,Transport,17,1,OK
+282.04,user70@hdfc,KFC,Food & Dining,9,3,OK
+44.12,user71@razorpay,Zomato,Food & Dining,21,1,OK
+145.11,user72@hdfc,Mobile Recharge,Bills,4,4,OK
+123.27,user73@googlepay,Cafe Coffee Day,Food & Dining,12,0,Over
+287.99,user74@axis,DMart,Shopping,18,6,OK
+89.61,user75@hdfc,Lab Test,Healthcare,11,4,Near
+46.47,user76@googlepay,Parking Fee,Transport,7,4,Near
+255.69,user77@paytm,Water Bill,Bills,9,2,OK
+69.59,user78@axis,Ola,Transport,7,4,Over
+211.76,user79@axis,Internet Bill,Bills,6,0,Near
+280.81,user80@googlepay,Pharmacy,Healthcare,4,1,OK
+327.41,user81@googlepay,Max Hospital,Healthcare,16,5,OK
+96.97,user82@axis,Zomato,Food & Dining,21,3,OK
+15.42,user83@razorpay,Petrol Pump,Transport,9,2,OK
+150.3,user84@hdfc,Cafe Coffee Day,Food & Dining,21,2,OK
+136.98,user85@razorpay,Pharmacy,Healthcare,17,5,OK
+786.53,user86@phonepe,Big Bazaar,Shopping,21,5,Near
+187.89,user87@googlepay,Max Hospital,Healthcare,5,2,OK
+168.8,user88@hdfc,KFC,Food & Dining,9,4,OK
+204.48,user89@hdfc,Lab Test,Healthcare,11,1,OK
+134.1,user90@phonepe,Doctor Fee,Healthcare,11,1,OK
+250.42,user91@phonepe,Myntra,Shopping,21,3,OK
+838.59,user92@googlepay,Nykaa,Shopping,13,6,OK
+416.59,user93@hdfc,Medicine Shop,Healthcare,22,6,OK
+2404.84,user94@googlepay,Myntra,Shopping,15,1,Near
+23.13,user95@axis,Petrol Pump,Transport,19,1,OK
+938.82,user96@paytm,Doctor Fee,Healthcare,23,1,OK
+138.52,user97@paytm,Pharmacy,Healthcare,18,4,OK
+19.63,user98@razorpay,Parking Fee,Transport,17,2,OK
+66.76,user99@razorpay,Cafe Coffee Day,Food & Dining,20,2,OK
