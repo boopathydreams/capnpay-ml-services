@@ -38,16 +38,25 @@ class RedisFeatureStore:
     """
 
     def __init__(self):
+        # Build Redis connection arguments
+        redis_args = {
+            "host": FEATURE_STORE_CONFIG["redis_host"],
+            "port": FEATURE_STORE_CONFIG["redis_port"],
+            "db": FEATURE_STORE_CONFIG["redis_db"],
+        }
+
+        # Add optional authentication if provided
+        if FEATURE_STORE_CONFIG.get("redis_password"):
+            redis_args["password"] = FEATURE_STORE_CONFIG["redis_password"]
+        if FEATURE_STORE_CONFIG.get("redis_username"):
+            redis_args["username"] = FEATURE_STORE_CONFIG["redis_username"]
+
         self.redis_client = redis.Redis(
-            host=FEATURE_STORE_CONFIG["redis_host"],
-            port=FEATURE_STORE_CONFIG["redis_port"],
-            db=FEATURE_STORE_CONFIG["redis_db"],
+            **redis_args,
             decode_responses=False,  # Keep binary for pickle
         )
         self.redis_str_client = redis.Redis(
-            host=FEATURE_STORE_CONFIG["redis_host"],
-            port=FEATURE_STORE_CONFIG["redis_port"],
-            db=FEATURE_STORE_CONFIG["redis_db"],
+            **redis_args,
             decode_responses=True,  # For string operations
         )
         self.default_ttl = FEATURE_STORE_CONFIG["feature_ttl"]

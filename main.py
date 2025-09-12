@@ -67,8 +67,8 @@ _ensemble_instance = None
 def get_ensemble() -> ChampionDeltaEnsemble:
     global _ensemble_instance
     if _ensemble_instance is None:
-        champ_dir = Path("model_artifacts/champion")
-        delta_dir = Path("model_artifacts/delta")
+        champ_dir = Path("training/model_artifacts/champion")
+        delta_dir = Path("training/model_artifacts/delta")
         cfg = EnsembleConfig(alpha=0.7, confidence_threshold=0.6)
         _ensemble_instance = ChampionDeltaEnsemble(
             champion_dir=champ_dir,
@@ -110,6 +110,16 @@ class PredictionResponse(BaseModel):
 class TrainingRequest(BaseModel):
     transactions: List[Dict[str, Any]]
     model_version: Optional[str] = "v1"
+
+
+class TrainingSample(BaseModel):
+    user_id: str
+    merchant_name: str
+    amount: float
+    timestamp: str
+    category: str  # canonical category name
+    vpa: str
+    source: str = "confirmed"  # AUTO or MANUAL
 
 
 class HealthResponse(BaseModel):
@@ -564,13 +574,18 @@ async def startup_event():
 
     # Load models if available
     try:
-        model_loaded = auto_tagger.load_model("Production")
-        if model_loaded:
-            logger.info("✅ Production auto-tagging model loaded")
+        # Prefer local artifacts; avoid noisy MLflow errors when registry is empty
+        champ_path = Path("training/model_artifacts/champion/xgb_model.json")
+        if champ_path.exists():
+            model_loaded = auto_tagger.load_model("Local")
+            if model_loaded:
+                logger.info("✅ Auto-tagging model loaded from local artifacts")
+            else:
+                logger.info("⚠️ Local artifacts present but failed to load; using fallback")
         else:
-            logger.info("⚠️ No production model found - will use training mode")
+            logger.info("ℹ️ No local model artifacts found; using ensemble/rule-based fallback")
     except Exception as e:
-        logger.warning(f"Could not load production model: {e}")
+        logger.warning(f"Model load skipped due to error: {e}")
 
 
 # Health check endpoint
@@ -754,6 +769,43 @@ async def train_auto_tagger(
 
     except Exception as e:
         logger.error(f"Error starting training: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/events/training-sample")
+async def stream_training_sample(sample: TrainingSample):
+    """
+    Stream individual confirmed label to ML for delta training
+    Collects samples for batch training when threshold is reached
+    """
+    try:
+        # Convert to transaction format
+        transaction_data = {
+            "user_id": sample.user_id,
+            "merchant_name": sample.merchant_name,
+            "amount": sample.amount,
+            "timestamp": sample.timestamp,
+            "category": sample.category,
+            "vpa": sample.vpa,
+            "source": sample.source,
+        }
+
+        # For now, just log the sample (in production, this would be stored for batch training)
+        logger.info(
+            f"🎯 Training sample received: {sample.merchant_name} → {sample.category} (confidence: {sample.source})"
+        )
+
+        # TODO: In production, accumulate samfples and trigger delta training when threshold reached
+        # This could store in a queue/database and periodically retrain the model
+
+        return {
+            "status": "accepted",
+            "message": "Training sample logged for future delta training",
+            "sample_id": f"{sample.user_id}_{sample.timestamp}",
+        }
+
+    except Exception as e:
+        logger.error(f"Error processing training sample: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
 

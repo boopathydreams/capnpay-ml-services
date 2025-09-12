@@ -417,7 +417,7 @@ class XGBoostAutoTagger:
             )[:10]
 
             # Save artifacts bundle
-            artifacts_dir = Path("model_artifacts/champion")
+            artifacts_dir = Path("training/model_artifacts/champion")
             artifacts_dir.mkdir(parents=True, exist_ok=True)
             model_path = artifacts_dir / "xgb_model.json"
             self.model.save_model(model_path)
@@ -479,10 +479,14 @@ class XGBoostAutoTagger:
 
         try:
             # Load parity artifacts
-            artifacts_dir = Path("model_artifacts/champion")
+            artifacts_dir = Path("training/model_artifacts/champion")
             enc = Encoders.load(artifacts_dir / "encoders.pkl")
             cal_path = artifacts_dir / "calibrator.pkl"
-            categories = json.loads((artifacts_dir / "categories.json").read_text()) if (artifacts_dir / "categories.json").exists() else []
+            categories = (
+                json.loads((artifacts_dir / "categories.json").read_text())
+                if (artifacts_dir / "categories.json").exists()
+                else []
+            )
             calibrator = MulticlassPlatt.load(cal_path) if cal_path.exists() else None
 
             # Parity features
@@ -505,7 +509,10 @@ class XGBoostAutoTagger:
                 # Get top 3 predictions
                 top_indices = np.argsort(probs)[-3:][::-1]
                 top_predictions = [
-                    {"category": (categories[idx] if categories else str(idx)), "confidence": probs[idx]}
+                    {
+                        "category": (categories[idx] if categories else str(idx)),
+                        "confidence": probs[idx],
+                    }
                     for idx in top_indices
                 ]
 
@@ -537,7 +544,7 @@ class XGBoostAutoTagger:
             import pickle
             import os
 
-            artifact_dir = os.path.join(os.getcwd(), "model_artifacts")
+            artifact_dir = os.path.join(os.getcwd(), "training/model_artifacts")
             os.makedirs(artifact_dir, exist_ok=True)
 
             label_encoder_path = os.path.join(artifact_dir, "label_encoder.pkl")
@@ -599,13 +606,25 @@ class XGBoostAutoTagger:
     def load_model(self, version: str = "Production") -> bool:
         """Load model from MLflow registry"""
         try:
-            # Load model
-            self.model = model_registry.get_model("auto_tagging", version)
+            # Prefer local champion artifacts if present to avoid MLflow dependency during startup
+            artifacts_dir = Path("training/model_artifacts/champion")
+            local_model_path = artifacts_dir / "xgb_model.json"
+            if local_model_path.exists():
+                self.model = xgb.XGBClassifier()
+                self.model.load_model(str(local_model_path))
+                logger.info("Loaded XGBoost model from local champion artifacts")
+                return True
 
-            # Load preprocessing objects (would need to implement artifact loading)
-            # For now, assume they're loaded
-            logger.info(f"Model loaded from MLflow ({version})")
-            return True
+            # Fallback: try MLflow only if local artifacts are missing
+            try:
+                self.model = model_registry.get_model("auto_tagging", version)
+                logger.info(f"Model loaded from MLflow ({version})")
+                return True
+            except Exception as mlflow_err:
+                logger.warning(
+                    f"MLflow model not available ({mlflow_err}); no local artifacts found either"
+                )
+                return False
 
         except Exception as e:
             logger.error(f"Error loading model: {e}")

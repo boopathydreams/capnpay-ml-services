@@ -86,8 +86,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train Delta model with warm start from Champion")
     parser.add_argument("--recent_csv", required=True, help="Path to recent labeled CSV")
     parser.add_argument("--replay_csv", required=True, help="Path to full labeled CSV for replay sampling")
-    parser.add_argument("--champion_dir", default="model_artifacts/champion", help="Champion artifacts directory")
-    parser.add_argument("--out_dir", default="model_artifacts/delta", help="Output directory for Delta artifacts")
+    parser.add_argument("--champion_dir", default="training/model_artifacts/champion", help="Champion artifacts directory")
+    parser.add_argument("--out_dir", default="training/model_artifacts/delta", help="Output directory for Delta artifacts")
     args = parser.parse_args()
 
     r = pd.read_csv(args.recent_csv)

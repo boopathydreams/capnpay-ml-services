@@ -50,9 +50,8 @@ def main():
     print(f"Accuracy: {metrics.get('accuracy'):.4f}")
     print(f"CV mean: {metrics.get('cv_mean_accuracy'):.4f} ± {metrics.get('cv_std_accuracy'):.4f}")
     print(f"Samples: {metrics.get('n_samples')}")
-    print("Artifacts: model_artifacts/champion/")
+    print("Artifacts: training/model_artifacts/champion/")
 
 
 if __name__ == "__main__":
     main()
-

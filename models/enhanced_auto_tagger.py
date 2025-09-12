@@ -5,13 +5,15 @@ Handles feature mismatch by using multiple prediction strategies
 
 import pandas as pd
 import numpy as np
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Optional
 import logging
 from pathlib import Path
 import json
+import re
 
 from .auto_tagging import XGBoostAutoTagger
 from .ensemble import ChampionDeltaEnsemble, EnsembleConfig
+from .features import Encoders
 
 logger = logging.getLogger(__name__)
 
@@ -27,13 +29,14 @@ class EnhancedAutoTagger:
     def __init__(self):
         self.ensemble = None
         self.xgb_tagger = XGBoostAutoTagger()
+        self._enc_cache: Optional[Encoders] = None
         self.initialize_ensemble()
 
     def initialize_ensemble(self):
         """Initialize ensemble if artifacts exist"""
         try:
-            champ_dir = Path("model_artifacts/champion")
-            delta_dir = Path("model_artifacts/delta")
+            champ_dir = Path("training/model_artifacts/champion")
+            delta_dir = Path("training/model_artifacts/delta")
 
             if (champ_dir / "xgb_model.json").exists():
                 config = EnsembleConfig(alpha=0.7, confidence_threshold=0.6)
@@ -52,6 +55,38 @@ class EnhancedAutoTagger:
             logger.error(f"❌ Failed to initialize ensemble: {e}")
             self.ensemble = None
 
+    def _normalize(self, text: str) -> str:
+        if not isinstance(text, str) or not text:
+            return "unknown"
+        s = re.sub(r"[^a-zA-Z0-9\s]", " ", text.lower())
+        return re.sub(r"\s+", " ", s).strip()
+
+    def _load_encoders(self) -> Optional[Encoders]:
+        if self._enc_cache is not None:
+            return self._enc_cache
+        try:
+            enc_path = Path("training/model_artifacts/champion/encoders.pkl")
+            if enc_path.exists():
+                self._enc_cache = Encoders.load(enc_path)
+                return self._enc_cache
+        except Exception as e:
+            logger.warning(f"Failed to load encoders for novelty check: {e}")
+        return None
+
+    def _is_novel_merchant(self, merchant_name: Optional[str]) -> bool:
+        norm = self._normalize(merchant_name or "")
+        enc: Optional[Encoders] = None
+        if self.ensemble and getattr(self.ensemble, "champion", None):
+            enc = getattr(self.ensemble.champion, "encoders", None)
+        if enc is None:
+            enc = self._load_encoders()
+        try:
+            classes = set(enc.merchant_name_encoder.classes_.tolist()) if enc and hasattr(enc.merchant_name_encoder, "classes_") else set()
+            return norm not in classes
+        except Exception:
+            # If we cannot determine, treat as novel to be conservative
+            return True
+
     def predict_single(self, transaction_data: Dict[str, Any]) -> Dict[str, Any]:
         """
         Predict category for a single transaction using best available method
@@ -62,14 +97,34 @@ class EnhancedAutoTagger:
             try:
                 df = pd.DataFrame([transaction_data])
                 result = self.ensemble.predict(df)
+                top_preds = result.get("top_predictions") or result.get("topk", [])
+                source = result.get("prediction_source", "champion")
 
+                # Novelty dampening: if merchant unseen by encoders, cap confidence and flag review
+                is_novel = self._is_novel_merchant(transaction_data.get("merchant_name"))
+                confidence = float(result["confidence"])
+                if is_novel and confidence > 0.6:
+                    # Scale down the full top_predictions proportionally for consistency
+                    scale = 0.6 / confidence if confidence > 0 else 1.0
+                    adjusted = []
+                    for tp in top_preds:
+                        try:
+                            adjusted.append({
+                                "category": tp.get("category"),
+                                "confidence": float(tp.get("confidence", 0.0)) * scale,
+                            })
+                        except Exception:
+                            adjusted.append(tp)
+                    top_preds = adjusted
+                    confidence = 0.6
                 return {
                     "predicted_category": result["category"],
-                    "confidence": result["confidence"],
-                    "top_predictions": result["top_predictions"],
+                    "confidence": confidence,
+                    "top_predictions": top_preds,
                     "method": "champion_delta_ensemble",
-                    "model_source": result.get("source", "champion"),
-                    "requires_review": result["confidence"] < 0.7,
+                    "model_source": source,
+                    "requires_review": is_novel or (confidence < 0.7),
+                    "novel_merchant": is_novel,
                 }
 
             except Exception as e:
@@ -83,13 +138,31 @@ class EnhancedAutoTagger:
 
                 if predictions:
                     pred = predictions[0]
+                    # Novelty dampening using same encoder cache
+                    is_novel = self._is_novel_merchant(transaction_data.get("merchant_name"))
+                    confidence = float(pred.get("confidence", 0.0))
+                    top_preds = pred.get("top_predictions", [])
+                    if is_novel and confidence > 0.6:
+                        scale = 0.6 / confidence if confidence > 0 else 1.0
+                        adjusted = []
+                        for tp in top_preds:
+                            try:
+                                adjusted.append({
+                                    "category": tp.get("category"),
+                                    "confidence": float(tp.get("confidence", 0.0)) * scale,
+                                })
+                            except Exception:
+                                adjusted.append(tp)
+                        top_preds = adjusted
+                        confidence = 0.6
                     return {
                         "predicted_category": pred.get("predicted_category", "other"),
-                        "confidence": pred.get("confidence", 0.0),
-                        "top_predictions": pred.get("top_predictions", []),
+                        "confidence": confidence,
+                        "top_predictions": top_preds,
                         "method": "xgboost_engineered",
                         "model_source": "xgboost",
-                        "requires_review": pred.get("confidence", 0.0) < 0.7,
+                        "requires_review": is_novel or (confidence < 0.7),
+                        "novel_merchant": is_novel,
                     }
         except Exception as e:
             logger.warning(f"XGBoost prediction failed: {e}")

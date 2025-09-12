@@ -39,7 +39,7 @@ class FeatureSpec:
     numerical_features: List[str]
     derived_features: List[str]
     feature_dtypes: Dict[str, str]
-    version: str = "1.0"
+    version: str = "1.1"
 
 
 class Encoders:
@@ -288,6 +288,20 @@ def build_features(
     features["catalog_is_personal"] = (cid == 5.0).astype(float)
     features["catalog_is_bills"] = (cid == 6.0).astype(float)
 
+    # Novelty feature: high when merchant has no catalog prior and user hasn't seen payee
+    # Additionally consider it novel if the merchant token is unknown to the encoder (when available)
+    try:
+        unknown_enc_series = pd.Series(False, index=features.index)
+        if encoders is not None and hasattr(encoders.merchant_name_encoder, "classes_"):
+            known = set([str(x) for x in encoders.merchant_name_encoder.classes_.tolist()])
+            unknown_enc_series = ~features["merchant_token"].astype(str).isin(known)
+        features["novelty_score"] = (
+            ((features["catalog_confidence"].fillna(0.0) <= 0.0) & (features["payee_seen_before"].fillna(0) <= 0))
+            | unknown_enc_series
+        ).astype(float)
+    except Exception:
+        features["novelty_score"] = 0.0
+
     return features
 
 
@@ -329,6 +343,7 @@ def fit_encoders(df: pd.DataFrame, categories: List[str]) -> Encoders:
         "merchant_known",
         "catalog_category_id",
         "catalog_confidence",
+        "novelty_score",
         "catalog_is_food",
         "catalog_is_shopping",
         "catalog_is_transport",
@@ -361,6 +376,7 @@ def fit_encoders(df: pd.DataFrame, categories: List[str]) -> Encoders:
             "day_of_week_sin",
             "day_of_week_cos",
             "is_round_amount",
+            "novelty_score",
         ],
         feature_dtypes=feature_dtypes,
     )

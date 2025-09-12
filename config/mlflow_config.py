@@ -109,10 +109,30 @@ EXPERIMENTS = {
 }
 
 # Feature Store Configuration
+import urllib.parse
+
+
+def parse_redis_url(redis_url: str | None = None) -> dict:
+    """Parse Redis URL into individual components"""
+    if not redis_url:
+        redis_url = os.getenv("REDIS_URL", "redis://localhost:6379/1")
+
+    parsed = urllib.parse.urlparse(redis_url)
+
+    return {
+        "redis_host": parsed.hostname or "localhost",
+        "redis_port": parsed.port or 6379,
+        "redis_db": int(parsed.path.lstrip("/")) if parsed.path.lstrip("/") else 0,
+        "redis_password": parsed.password,
+        "redis_username": parsed.username,
+    }
+
+
+# Parse Redis configuration from URL
+_redis_config = parse_redis_url()
+
 FEATURE_STORE_CONFIG = {
-    "redis_host": os.getenv("REDIS_HOST", "localhost"),
-    "redis_port": int(os.getenv("REDIS_PORT", 6379)),
-    "redis_db": int(os.getenv("REDIS_DB", 0)),
+    **_redis_config,
     "feature_ttl": 3600,  # 1 hour TTL for features
     "batch_size": 1000,
 }
