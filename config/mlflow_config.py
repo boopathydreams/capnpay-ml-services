@@ -125,6 +125,8 @@ def parse_redis_url(redis_url: str | None = None) -> dict:
         "redis_db": int(parsed.path.lstrip("/")) if parsed.path.lstrip("/") else 0,
         "redis_password": parsed.password,
         "redis_username": parsed.username,
+        # Enable TLS when using rediss:// scheme
+        "use_ssl": (parsed.scheme == "rediss"),
     }
 
 

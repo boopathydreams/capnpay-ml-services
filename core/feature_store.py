@@ -45,6 +45,10 @@ class RedisFeatureStore:
             "db": FEATURE_STORE_CONFIG["redis_db"],
         }
 
+        # Enable TLS if configured (e.g., Azure Redis over rediss:// on 6380)
+        if FEATURE_STORE_CONFIG.get("use_ssl"):
+            redis_args["ssl"] = True
+
         # Add optional authentication if provided
         if FEATURE_STORE_CONFIG.get("redis_password"):
             redis_args["password"] = FEATURE_STORE_CONFIG["redis_password"]

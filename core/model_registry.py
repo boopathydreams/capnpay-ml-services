@@ -6,7 +6,11 @@ Handles all model versioning, experiment tracking, and deployment for Cap'n Pay 
 import mlflow
 import mlflow.sklearn
 import mlflow.xgboost
-import mlflow.pytorch
+try:
+    import mlflow.pytorch  # type: ignore
+    _MLFLOW_PYTORCH_AVAILABLE = True
+except Exception:  # Torch or mlflow.pytorch may be unavailable in slim builds
+    _MLFLOW_PYTORCH_AVAILABLE = False
 from mlflow.tracking import MlflowClient
 from mlflow.store.artifact.runs_artifact_repo import RunsArtifactRepository
 import logging
@@ -144,6 +148,10 @@ class MLflowModelRegistry:
             elif model_type == "sklearn":
                 mlflow.sklearn.log_model(model, "model")
             elif model_type == "pytorch":
+                if not _MLFLOW_PYTORCH_AVAILABLE:
+                    raise ImportError(
+                        "mlflow.pytorch/torch not installed. Add torch to requirements or avoid model_type='pytorch'."
+                    )
                 mlflow.pytorch.log_model(model, "model")
             else:
                 # Generic pickle logging
