@@ -1,0 +1,158 @@
+{
+  "test_samples": 800,
+  "timestamp": "2025-09-19T03:10:17.310920",
+  "standard": {
+    "training_metrics": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "cv_mean_accuracy": 1.0,
+      "cv_std_accuracy": 0.0,
+      "n_samples": 800,
+      "n_features": 31,
+      "top_features": [
+        [
+          "f6",
+          2306.0
+        ],
+        [
+          "f0",
+          629.0
+        ],
+        [
+          "f2",
+          277.0
+        ],
+        [
+          "f1",
+          251.0
+        ],
+        [
+          "f3",
+          170.0
+        ],
+        [
+          "f4",
+          105.0
+        ],
+        [
+          "f14",
+          95.0
+        ],
+        [
+          "f19",
+          53.0
+        ],
+        [
+          "f16",
+          34.0
+        ],
+        [
+          "f15",
+          28.0
+        ]
+      ],
+      "artifacts": {
+        "model": "training/model_artifacts/champion/xgb_model.json",
+        "encoders": "training/model_artifacts/champion/encoders.pkl",
+        "feature_spec": "training/model_artifacts/champion/feature_spec.json",
+        "calibrator": "training/model_artifacts/champion/calibrator.pkl",
+        "categories": "training/model_artifacts/champion/categories.json"
+      },
+      "model_version": "standard_v1.0",
+      "advanced_features": false,
+      "target_accuracy_met": true,
+      "feature_engineering_level": "standard"
+    },
+    "prediction_count": 10,
+    "avg_confidence": "0.8202645",
+    "status": "success"
+  },
+  "enhanced": {
+    "training_metrics": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "cv_mean_accuracy": 1.0,
+      "cv_std_accuracy": 0.0,
+      "n_samples": 800,
+      "n_features": 31,
+      "top_features": [
+        [
+          "f6",
+          2306.0
+        ],
+        [
+          "f0",
+          629.0
+        ],
+        [
+          "f2",
+          277.0
+        ],
+        [
+          "f1",
+          251.0
+        ],
+        [
+          "f3",
+          170.0
+        ],
+        [
+          "f4",
+          105.0
+        ],
+        [
+          "f14",
+          95.0
+        ],
+        [
+          "f19",
+          53.0
+        ],
+        [
+          "f16",
+          34.0
+        ],
+        [
+          "f15",
+          28.0
+        ]
+      ],
+      "artifacts": {
+        "model": "training/model_artifacts/champion/xgb_model.json",
+        "encoders": "training/model_artifacts/champion/encoders.pkl",
+        "feature_spec": "training/model_artifacts/champion/feature_spec.json",
+        "calibrator": "training/model_artifacts/champion/calibrator.pkl",
+        "categories": "training/model_artifacts/champion/categories.json"
+      },
+      "model_version": "enhanced_v2.0",
+      "advanced_features": true,
+      "target_accuracy_met": true,
+      "feature_engineering_level": "advanced"
+    },
+    "prediction_count": 10,
+    "avg_confidence": "0.8202645",
+    "status": "success",
+    "feature_insights": {
+      "model_version": "enhanced_v2.0",
+      "advanced_features": true,
+      "feature_groups": {
+        "temporal": 11,
+        "user_behavioral": 5,
+        "merchant_intelligence": 6,
+        "transaction_patterns": 6,
+        "financial_behavior": 3
+      },
+      "total_features": 31
+    }
+  },
+  "comparison": {
+    "accuracy_improvement": 0.0,
+    "relative_improvement_percent": 0.0,
+    "recommended_model": "standard",
+    "significant_improvement": false
+  }
+}

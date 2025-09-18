@@ -76,6 +76,13 @@ class XGBoostAutoTagger:
                 "zomato",
                 "swiggy",
                 "dining",
+                "tea",
+                "chai",
+                "coffee",
+                "bakery",
+                "pizza",
+                "burger",
+                "kitchen",
             ],
             "transport": [
                 "uber",

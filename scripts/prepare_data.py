@@ -40,7 +40,7 @@ def create_training_data():
     users = [f"user_{i:04d}" for i in range(200)]
 
     print("🔄 Generating transactions...")
-    for i in range(5000):
+    for i in range(50000):
         # Random merchant
         merchant_row = merchant_df.sample(1).iloc[0]
         merchant_name = merchant_row["Merchant Name"]
